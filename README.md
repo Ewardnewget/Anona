@@ -9,11 +9,11 @@ To use it, you need first get the IR file of the tested program, and the trace f
 
 Run the following command to analyze the traces:
 ```
-opt -load libvulFE.so -vulana -tpath PATH_TO_TRACES -maxm=xx -maxt=xx PATH_TO_IR_FILE
+opt -load ./libvulFE.so -vulana -tpath PATH_TO_TRACES -maxm=xx -maxt=xx PATH_TO_IR_FILE
 ```
 For example, using the following command to analyze the traces in folder "example":
 ```
-opt -load libvulFE.so -vulana -tpath example -maxm=8 -maxt=1 test.bc
+opt -load ./libvulFE.so -vulana -tpath ./example -maxm=8 -maxt=1 ./example/test.bc
 ```
 Use the paramters "maxm" and "maxt" specify the maximum memory (in GB) and the number of threads running concurrently，which in default are "8GB" and "1" thread.
 
