@@ -1,9 +1,9 @@
-# Dysmo
+# ReconP
 
 
-## The Tool Dysmo
+## The Tool ReconP
 
-The file "tool.so" is the binary file of Dysmo. It requires LLVM+Clang 7.1.0.
+The file "tool.so" is the binary file of ReconP. It requires LLVM+Clang 7.1.0.
 
 To use it, you need first get the IR file of the tested program, and the trace files.
 
